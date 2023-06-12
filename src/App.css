@@ -4,3 +4,9 @@
     height: 50px;
     position: absolute;
 }
+
+.boardGame {
+    left: 20%;
+    top: 20%;
+    position: absolute;
+}
