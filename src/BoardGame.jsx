@@ -1,14 +1,6 @@
 import React from 'react';
 import './App.css';
 
-/* {x: origin.x + (i * unitCoordinate.x), y: origin.y - unitCoordinate.y},
-{x: origin.x - (i * unitCoordinate.x), y: origin.y - unitCoordinate.y},
-{x: origin.x - (i * unitCoordinate.x), y: origin.y + unitCoordinate.y},
-{x: origin.x + (i * unitCoordinate.x), y: origin.y + unitCoordinate.y},
-
-{y: origin.y + (i * unitCoordinate.y), x: origin.x - unitCoordinate.x},
-*/
-
 const generateBoardGame = (length, {width, height}, scaleFactor = 0.6) => {
 	width *= scaleFactor;
 	height *= scaleFactor;
