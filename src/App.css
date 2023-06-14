@@ -5,8 +5,18 @@
     position: absolute;
 }
 
-.boardGame {
+.board-game {
+    left: 5%;
+    top: 5%;
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    overflow: auto;
+    border: 1px solid black;
+}
+
+.board-game-content {
+    position: absolute;
     left: 20%;
     top: 20%;
-    position: absolute;
 }
